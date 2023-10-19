@@ -3,8 +3,8 @@
 та у будь якому випадку не співпадіння поверне текст There are no type matches for operation */
 
 function typeChecker(arg1, arg2) {
-    return typeof arg1 === "string" && typeof arg2 === "string" ? arg1+arg2 : 
-            (typeof arg1 === "number" && typeof arg2 === "number" ? arg1*arg2 : console.log ("There are no type matches for operation"))
+    return typeof arg1 === "string" && typeof arg2 === "string" ? arg1 + arg2 : 
+            (typeof arg1 === "number" && typeof arg2 === "number" ? arg1 * arg2 : console.log ("There are no type matches for operation"))
 }
 
 // Приклад роботи функції:
