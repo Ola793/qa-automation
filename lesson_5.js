@@ -16,7 +16,7 @@ console.log(stringToArray(str));// виводить [ 'для', 'довільн�
  */
 const initialArray = [1, 4, 6, 6, 7, 5, 34, 5, 1000, 66, 1];
 function removeDuplicatesAndSort(arr) {
-    return [...new Set([...arr].sort((a, b) => a - b))]
+    return [...new Set(arr.sort((a, b) => a - b))]
 }
 
 console.log(removeDuplicatesAndSort(initialArray)); // виводить [ 1, 4, 5, 6, 7, 34, 66, 1000 ]
