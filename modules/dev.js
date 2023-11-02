@@ -4,15 +4,7 @@ export class Dev extends Employee {
     constructor(id, salary) {
         super(id, salary)
     }
-
-    // get getId() {
-    //     return this.id
-    // }
-
-    // get getSalary() {
-    //     return this.salary
-    // }
-
+    
     getJobType() {
         return `I am a Dev`
     }
