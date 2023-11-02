@@ -5,14 +5,6 @@ export class Dev extends Employee {
         super(id, salary)
     }
 
-    // get getId() {
-    //     return this.id
-    // }
-
-    // get getSalary() {
-    //     return this.salary
-    // }
-
     getJobType() {
         return `I am a Dev`
     }
