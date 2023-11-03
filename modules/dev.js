@@ -17,7 +17,7 @@ export class Dev extends Employee {
                 arrayOfDevs.push(obj);
             }
         });
-        
-        return arrayOfDevs;
+
+        return arrayOfDevs
     }
 }
