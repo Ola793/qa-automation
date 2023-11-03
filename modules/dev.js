@@ -2,7 +2,7 @@ import { Employee } from "./employee.js";
 
 export class Dev extends Employee {
     constructor(id, salary) {
-        super(id, salary)
+        super(id, salary);
     }
     
     getJobType() {
