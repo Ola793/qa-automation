@@ -18,6 +18,6 @@ export class Dev extends Employee {
             }
         });
         
-        return arrayOfDevs;
+        return arrayOfDevs
     }
 }
