@@ -5,7 +5,9 @@ export class PM extends Employee {
         super(id, salary);
     }
 
+    #jobType = `I am a PM`;
+
     getJobType() {
-        return `I am a PM`
+        return this.#jobType
     }
 }
