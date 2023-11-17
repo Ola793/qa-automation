@@ -70,11 +70,11 @@ function resolveNumber() {
     }, 3000);
   });
 
-  return promise.then(
-    resolve => console.log(resolve)
-  ).catch(
-    reject => console.log(reject)
-  )
+  return promise
 }
 
-resolveNumber()//далі обробка промісу, в консолі або, наприклад, Resolved 7, або Rejected 2 (в залежності від рандомно створенного числа)
+resolveNumber().then(
+  resolve => console.log(resolve)
+).catch(
+  reject => console.log(reject)
+)//далі обробка промісу, в консолі або, наприклад, Resolved 7, або Rejected 2 (в залежності від рандомно створенного числа)

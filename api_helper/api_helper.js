@@ -7,11 +7,10 @@ export async function getPosts(url) {
     return results
 }
 
-export async function postPosts(url) {
-    const body = {};
+export async function postPosts(url, requestBody) {
     const response = await fetch((url), {
         method: "post",
-        body: JSON.stringify(body),
+        body: JSON.stringify(requestBody),
         headers: {"Content-Type": "application/json"}
     });
     const results = await response.json();
