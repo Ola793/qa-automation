@@ -19,5 +19,8 @@
   "devDependencies": {
     "cypress": "^13.3.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
